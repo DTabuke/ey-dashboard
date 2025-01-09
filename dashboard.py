@@ -333,7 +333,7 @@ with st.expander("FREQUENCY OF OCCURRENCES"):
         first_occurrence = filtered_data.iloc[0]
 
         st.write("### Recurrence per Aircraft")
-        st.dataframe(aircraft_max_reccurrence, hide_index=True, use_container_width=True)
+        # st.dataframe(aircraft_max_reccurrence, hide_index=True, use_container_width=True)
 
     with col2:
         # Plot the recurrence over time using the Recurrence Count

@@ -383,7 +383,7 @@ with st.expander("FREQUENCY OF OCCURRENCES"):
 
     # Independent Recurrence Data
     # st.write("### Full Recurrence Data (Independent)")
-    st.dataframe(reccurrence_dataset, hide_index=True, use_container_width=True)
+    # st.dataframe(reccurrence_dataset, hide_index=True, use_container_width=True)
 
     # Create two columns for the pie chart and bar chart
     col1, col2 = st.columns([0.5, 0.5])
